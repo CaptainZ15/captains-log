@@ -1,0 +1,48 @@
+html, body {
+    height: 100%;
+    color: white;
+}
+
+.bg { 
+    /* The image used */
+    background-image: url("/imgs/background.jpg");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-danger, li {
+    background-color: rgba(85, 0, 0, 0.637);
+    border-radius: 10px;
+}
+
+#heading {
+    padding-top: 1vw;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: orangered;
+}
+
+h3 {
+    line-height: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+    h3 {
+        font-size: 18px;
+    }
+
+    h4 {
+        font-size: 24px;
+    }
+}
